@@ -19,24 +19,32 @@ img {
 
 /* Header */
 header {
-  border: 2px solid red;
   background-color: #ffb826;
+  overflow: hidden;
+  position: relative;
+}
+
+header i {
+  padding: 15px;
+}
+
+header a i {
+  color: #333;
+}
+
+header i a:hover {
+  color: #c9c2b9;
 }
 
 header h1 {
   font-size: 55px;
   font-family: 'Merriweather', serif;
   color: #504d4a;
-  padding-left: 15px;
+  text-align: center;
 }
 
-header .navigation {
-  width: 0;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
+header nav {
+  display: none;
 }
 
 header nav ul li {
@@ -48,7 +56,9 @@ header nav ul li a {
   text-decoration: none;
   font-size: 20px;
   color: #333;
+  display: block;
 }
+
 header nav ul li a:hover {
   color: #504d4a;
 }
