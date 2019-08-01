@@ -50,7 +50,7 @@ img {
 }
 
 .topNav nav ul li a:hover {
-  color: #504d4a;
+  color: #c9c2b9;
 }
 
 .topNav a.icon {
@@ -59,11 +59,84 @@ img {
   right: 0;
   top: 0;
   padding: 35px;
-  color: #c9c2b9;
+  color: #504d4a;
 }
 
 /* Logo */
-#logo {
-  border: 2px solid red;
-  height: 800px;
+#logo .half-width {
+  padding-bottom: 15px;
+}
+
+#logo h2 {
+  font-size: 45px;
+  font-family: 'Merriweather', serif;
+  color: #504d4a;
+}
+
+#logo p {
+  font-size: 20px;
+  color: #504d4a;
+}
+
+/* Note */
+#note h2 {
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+  color: #504d4a;
+}
+
+#note p {
+  font-size: 20px;
+  color: #504d4a;
+  line-height: 32px;
+}
+
+/* Preview */
+#preview p {
+  font-size: 20px;
+  color: #504d4a;
+  line-height: 32px;
+}
+
+/* Address */
+#address h2 {
+  font-size: 45px;
+  font-family: 'Merriweather', serif;
+  color: #504d4a;
+}
+
+#address h3 {
+  font-size: 35px;
+  font-family: 'Merriweather', serif;
+  color: #504d4a;
+}
+
+#address p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #504d4a;
+}
+
+/* Footer */
+footer {
+  background-color: #ffb826;
+}
+
+footer p {
+  font-size: 18px;
+  color: #505d4a;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li i {
+  text-decoration: none;
+  color: #505d4a;
+  padding-left: 15px;
+}
+
+footer nav ul li i:hover {
+  color: #c9c2b9;
 }

@@ -1,0 +1,41 @@
+/* Base Styles */
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Grid System */
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+/* Header */
+.topNav {
+  background-color: #ffb826;
+  display: flex;
+  align-content: flex-start;
+}
+
+
+
+.topNav nav ul li a:hover {
+  color: #c9c2b9;
+}
+
+.topNav .icon {
+  display: hidden;
+}
