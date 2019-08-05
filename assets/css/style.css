@@ -82,7 +82,7 @@ header .topNav a.icon {
 
 #note h2 {
   font-family: "Merriweather", serif;
-  font-size: 55px;
+  font-size: 65px;
   color: #504d4a;
 }
 
@@ -94,13 +94,17 @@ header .topNav a.icon {
 
 /* Preview */
 #preview {
-  height: 990px;
-  border: 2px solid red;
-  flex-direction: row;
+  height: 900px;
+  padding: 40px;
 }
 
 #preview .full-width {
-  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#preview .half-width {
+  padding-bottom: 15px;
 }
 
 #preview p {
@@ -111,4 +115,52 @@ header .topNav a.icon {
 
 #preview img {
   height: 300px;
+  padding-left: 20px;
+}
+
+/* Address */
+#address {
+  height: 650px;
+}
+
+#address h2 {
+  font-size: 65px;
+  font-family: 'Merriweather', serif;
+  color: #504d4a;
+}
+
+#address h3 {
+  font-size: 55px;
+  font-family: 'Merriweather', serif;
+  color: #504d4a;
+}
+
+#address p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #504d4a;
+}
+
+/* Footer */
+footer {
+  background-color: #ffb826;
+}
+
+footer p {
+  font-size: 18px;
+  color: #505d4a;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li i {
+  text-decoration: none;
+  color: #505d4a;
+  padding-left: 15px;
+}
+
+footer nav ul li i:hover {
+  color: #c9c2b9;
 }
