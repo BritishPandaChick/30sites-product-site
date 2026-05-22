@@ -1,12 +1,14 @@
-# 30sites-product-site
+# 30 Days, 30 Sites Day 4: Product Website
+Mr. Gold Pawnbroker and Antiquities Dealer web page
 
-30 Days, 30 Sites Day Four Product Website. Made with HTML, CSS and JavaScript.
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
 
 ## Instructions
-Clone or download zip file. Open index.html to see website in the browser.
-
-## Contributing
-I will not be accepting any pull requests.
+1. Clone or download zip file. 
+2. Open index.html in the browser.
 
 ## Acknowledgements
 * 30 Days, 30 Sites
